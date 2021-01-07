@@ -12,6 +12,12 @@ describe('Test on demo.realworld.io', ()=>{
 
     it('Exploring global feed ..',()=>{
         cy.contains('Global Feed').click()
+        cy.get('article-list button').then(listOfbuttons => {
+            var i;
+            for (i = 0;i<5;i++){
+                listOfbuttons[i].click()
+            }
+        })
     })
 
     it('Create an article .. ',()=>{
