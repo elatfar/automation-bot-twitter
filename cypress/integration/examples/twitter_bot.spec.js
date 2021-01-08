@@ -27,6 +27,7 @@ describe('Twitter robot', () => {
             cy.wait(randomWaitTime+15000);
             cy.get('input[data-testid*="SearchBox_Search_Input"]').eq(0).type('love{enter}');
             cy.wait(randomWaitTime+15000);
+            cy.get('div[data-testid*="like"]').click()
         });
 
         it.skip('Tweet', () =>{
