@@ -4,7 +4,7 @@ the first intention is to build some kind bot for twitter using cypress automati
 
 # Test Case
 
-case : test_realworldio.spec.js
+## case : test_realworldio.spec.js
 
 step 1 : Visit and login
     
@@ -26,7 +26,7 @@ step 4 : Go to setting and logout
 
 - find setting and click button logout
 
-case : twitter_bot.spec.js
+## case : twitter_bot.spec.js
 
 step 1 : Visit
     
