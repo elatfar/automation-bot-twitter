@@ -15,7 +15,7 @@ step 1 : Visit and login
 step 2 : Exploring global feed
 
 - find element that contain "global feed" using `cy.contain`
-- find div element who have button as a child (example: `cy.get("div button")` 
+- find div element who have button as a child (example: `cy.get("div button"`)
 
 step 3 : Create an article
 
